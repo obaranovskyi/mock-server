@@ -1,0 +1,30 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "mock-server",
+  "main": "index.js",
+  "scripts": {
+	"start": "node ./bin/www",
+	"start-dev": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obaranovskyi/mock-server.git"
+  },
+  "keywords": [],
+  "author": "Oleh Baranovskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obaranovskyi/mock-server/issues"
+  },
+  "homepage": "https://github.com/obaranovskyi/mock-server#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "morgan": "^1.9.1",
+    "nocache": "^2.1.0",
+    "nodemon": "^1.19.4"
+  }
+}
